@@ -25,7 +25,7 @@ public class Main {
                             buffer.setNumber(randomNumber);
                             System.out.println(randomNumber);
                             try {
-                                Thread.sleep(100);
+                                Thread.sleep(1000);
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
@@ -58,8 +58,6 @@ public class Main {
 
         thread.start();
         thread1.start();
-
-
     }
 
 }
